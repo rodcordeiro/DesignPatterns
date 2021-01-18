@@ -1,0 +1,31 @@
+{
+  "name": "DesignPatterns",
+  "version": "1.0.0",
+  "description": "Design Patterns são padrões de desenvolvimento criados para a solução de problemas recorrentes de forma eficaz, auxiliando no desenvolvimento e na compreensão do código, tanto pelo desenvolvedor quanto por outros desenvolvedores que possam vir a trabalhar no código.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --files --transpile-only ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodcordeiro/DesignPatterns.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodcordeiro/DesignPatterns/issues"
+  },
+  "homepage": "https://github.com/rodcordeiro/DesignPatterns#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.14.0",
+    "@typescript-eslint/parser": "^4.14.0",
+    "eslint": "^7.18.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1",
+    "ts-node-dev": "^1.1.1",
+    "typescript": "^4.1.3"
+  }
+}
