@@ -4,7 +4,7 @@
   "description": "Design Patterns são padrões de desenvolvimento criados para a solução de problemas recorrentes de forma eficaz, auxiliando no desenvolvimento e na compreensão do código, tanto pelo desenvolvedor quanto por outros desenvolvedores que possam vir a trabalhar no código.",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node-dev --files --transpile-only ./src/index.ts",
+    "dev": "ts-node-dev --files --transpile-only ./src/creational/Singleton/moduleB.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
