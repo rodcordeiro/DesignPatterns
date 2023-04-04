@@ -11,20 +11,20 @@ export class MyDatabaseClassic {
     if (this.instance === null) {
       MyDatabaseClassic.instance = new MyDatabaseClassic();
     }
-    return MyDatabaseClassic.instance;
+    return MyDatabaseClassic.instance as MyDatabaseClassic;
   }
 
   add(user: User): void {
     this.users.push(user);
   }
 
-  remove(index: number): void {
-    this.users.splice(index, 1);
+  remove(name: string): void {
+    this.users = this.users.filter((user) => user.name !== name);
   }
 
   show(): void {
     for (const user of this.users) {
-      console.log(user);
+      console.log(user); //.table([user], ['name', 'age']);
     }
   }
 }

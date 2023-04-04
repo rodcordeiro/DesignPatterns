@@ -1,8 +1,8 @@
-import { MyDatabaseFunction } from './db/my-database-function';
+import { MyDatabaseClassic } from './db/my-database-classic';
 
 import './moduleA';
 
-const myDatabase = MyDatabaseFunction;
+const myDatabase = MyDatabaseClassic.getInstance();
 
 myDatabase.add({
   name: 'Rod',
@@ -17,4 +17,5 @@ myDatabase.add({
   age: 23,
 });
 
+myDatabase.remove('John');
 myDatabase.show();

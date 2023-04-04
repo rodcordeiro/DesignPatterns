@@ -1,10 +1,10 @@
 {
-  "name": "DesignPatterns",
+  "name": "design_patterns",
   "version": "1.0.0",
   "description": "Design Patterns são padrões de desenvolvimento criados para a solução de problemas recorrentes de forma eficaz, auxiliando no desenvolvimento e na compreensão do código, tanto pelo desenvolvedor quanto por outros desenvolvedores que possam vir a trabalhar no código.",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node-dev --files --transpile-only ./src/creational/Singleton/moduleB.ts",
+    "dev": "tsx watch ./src/creational/Singleton/moduleB.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,7 +25,9 @@
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-prettier": "4.0.0",
     "prettier": "2.8.7",
-    "ts-node-dev": "1.1.8",
     "typescript": "4.9.5"
+  },
+  "dependencies": {
+    "tsx": "^3.12.6"
   }
 }
