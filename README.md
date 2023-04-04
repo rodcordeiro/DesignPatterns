@@ -1,6 +1,7 @@
 # DesignPatterns
 
  Design Patterns são padrões de desenvolvimento criados para a solução de problemas recorrentes de forma eficaz, auxiliando no desenvolvimento e na compreensão do código, tanto pelo desenvolvedor quanto por outros desenvolvedores que possam vir a trabalhar no código.
+
  
 # Princípio SOLID na Programação Orientada a Objeto (POO)
   - **S***ingle Responsibility Principle*: Uma classe deve ter apenas uma responsabilidade, um motivo para mudar. Exemplo: Você é uma classe, apenas uma pessoa pode ir a sua mesa pedir para você mudar algo, se mais pessoas estão indo você está tendo mais de uma responsabilidade. 
@@ -14,3 +15,5 @@
  NOME: O nome do padrão
  INTENÇÃO OFICIAL: Qual a intenção do padrão, o que foi buscado durante sua criação.
 
+
+[Reference](https://github.com/luizomf/design-patterns-typescript)
